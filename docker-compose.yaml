@@ -19,7 +19,7 @@ services:
       DJANGO_SECRET_KEY: dev-secret-key
       DJANGO_DEBUG: "1"
     ports:
-      - "8000:8000"
+      - "8001:8000"
     depends_on:
       - db
     volumes:
